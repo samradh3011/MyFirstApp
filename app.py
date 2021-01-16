@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 
-
+st.beta_set_page_config(page_icon=🎆)
 st.title('**Read, Write and Understand Data**')
 data = st.file_uploader('Browse files to Open', type=['csv','xlsx'])
 if data is None:
