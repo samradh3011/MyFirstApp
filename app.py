@@ -16,4 +16,4 @@ try:
         st.write('Null Values:', data.isna().sum())
         st.write('Summary:', data.describe())
 except:
-    st.write('Error')
+    st.write('**Error while loading Dataset**')
