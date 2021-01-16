@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sb
 import streamlit as st
 
 data = pd.read_csv('C:\\Users\\HP DB0186AU\\Desktop\\Data_Science\\Assignments\\Multiple Linear Regression\\Multiple Linear Regression\\Cars.csv')
